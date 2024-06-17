@@ -1,80 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-06-16T12:11:20.418858" rpa="false" schemaversion="5">
-<suite id="s1" name="Desafio" source="C:\Users\Marillia\Desktop\Prime Hero Academy\desafio-segunda-semana\desafio.robot">
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-06-17T16:40:48.967088" rpa="false" schemaversion="5">
+<suite id="s1" name="Desafio" source="C:\Users\Marillia\Desktop\Prime Hero Academy\desafio-pha\desafio.robot">
 <test id="s1-t1" name="Exercicio dicionario" line="9">
 <kw name="Exibir informacoes do usuário">
+<msg time="2024-06-17T16:40:49.006145" level="TRACE">Arguments: [  ]</msg>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.461383" level="INFO">Nome: Saimon Teste</msg>
+<msg time="2024-06-17T16:40:49.007146" level="TRACE">Arguments: [ 'Nome: Saimon Teste' ]</msg>
+<msg time="2024-06-17T16:40:49.007146" level="INFO">Nome: Saimon Teste</msg>
+<msg time="2024-06-17T16:40:49.007146" level="TRACE">Return: None</msg>
 <arg>Nome: ${INFORMACOES.nome}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.461383" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.007146" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.462387" level="INFO">Idade: 21</msg>
+<msg time="2024-06-17T16:40:49.008147" level="TRACE">Arguments: [ 'Idade: 21' ]</msg>
+<msg time="2024-06-17T16:40:49.008147" level="INFO">Idade: 21</msg>
+<msg time="2024-06-17T16:40:49.008147" level="TRACE">Return: None</msg>
 <arg>Idade: ${INFORMACOES.idade}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.462387" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.008147" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.463386" level="INFO">Número: 85 0000-0000</msg>
+<msg time="2024-06-17T16:40:49.009182" level="TRACE">Arguments: [ 'Número: 85 0000-0000' ]</msg>
+<msg time="2024-06-17T16:40:49.012253" level="INFO">Número: 85 0000-0000</msg>
+<msg time="2024-06-17T16:40:49.012253" level="TRACE">Return: None</msg>
 <arg>Número: ${INFORMACOES.numero}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.462387" elapsed="0.000999"/>
+<status status="PASS" start="2024-06-17T16:40:49.008147" elapsed="0.004106"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.463386" level="INFO">CEP: 60410622</msg>
+<msg time="2024-06-17T16:40:49.012253" level="TRACE">Arguments: [ 'CEP: 60410622' ]</msg>
+<msg time="2024-06-17T16:40:49.013190" level="INFO">CEP: 60410622</msg>
+<msg time="2024-06-17T16:40:49.013190" level="TRACE">Return: None</msg>
 <arg>CEP: ${INFORMACOES.cep}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.463386" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.012253" elapsed="0.000937"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.464386" level="INFO">Bairro: Aldeota</msg>
+<msg time="2024-06-17T16:40:49.013190" level="TRACE">Arguments: [ 'Bairro: Aldeota' ]</msg>
+<msg time="2024-06-17T16:40:49.013190" level="INFO">Bairro: Aldeota</msg>
+<msg time="2024-06-17T16:40:49.013190" level="TRACE">Return: None</msg>
 <arg>Bairro: ${INFORMACOES.bairro}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.464386" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.013190" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.465387" level="INFO">Cidade: Fortaleza</msg>
+<msg time="2024-06-17T16:40:49.013190" level="TRACE">Arguments: [ 'Cidade: Fortaleza' ]</msg>
+<msg time="2024-06-17T16:40:49.014184" level="INFO">Cidade: Fortaleza</msg>
+<msg time="2024-06-17T16:40:49.014184" level="TRACE">Return: None</msg>
 <arg>Cidade: ${INFORMACOES.cidade}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.464386" elapsed="0.001001"/>
+<status status="PASS" start="2024-06-17T16:40:49.013190" elapsed="0.000994"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.465387" level="INFO">Estado: CE</msg>
+<msg time="2024-06-17T16:40:49.014184" level="TRACE">Arguments: [ 'Estado: CE' ]</msg>
+<msg time="2024-06-17T16:40:49.014184" level="INFO">Estado: CE</msg>
+<msg time="2024-06-17T16:40:49.015183" level="TRACE">Return: None</msg>
 <arg>Estado: ${INFORMACOES.estado}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.465387" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.014184" elapsed="0.000999"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.460387" elapsed="0.006000"/>
+<msg time="2024-06-17T16:40:49.015183" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-06-17T16:40:49.006145" elapsed="0.009038"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.459382" elapsed="0.008003"/>
+<status status="PASS" start="2024-06-17T16:40:49.006145" elapsed="0.009038"/>
 </test>
-<test id="s1-t2" name="Exercicio For in Range" line="44">
+<test id="s1-t2" name="Exercicio Argumentos e Retornos + If" line="23">
+<kw name="Verificar o ano de nascimento">
+<msg time="2024-06-17T16:40:49.018147" level="TRACE">Arguments: [ ${idade}='37' ]</msg>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2024-06-17T16:40:49.019148" level="TRACE">Arguments: [ result_format='%Y' ]</msg>
+<msg time="2024-06-17T16:40:49.021145" level="TRACE">Return: '2024'</msg>
+<msg time="2024-06-17T16:40:49.021145" level="INFO">${ano_atual} = 2024</msg>
+<var>${ano_atual}</var>
+<arg>result_format=%Y</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2024-06-17T16:40:49.019148" elapsed="0.001997"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-06-17T16:40:49.021145" level="TRACE">Arguments: [ '2024 - 37' ]</msg>
+<msg time="2024-06-17T16:40:49.021145" level="TRACE">Return: 1987</msg>
+<msg time="2024-06-17T16:40:49.021145" level="INFO">${ano_nascimento} = 1987</msg>
+<var>${ano_nascimento}</var>
+<arg>${ano_atual} - ${idade}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-06-17T16:40:49.021145" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="${ano_nascimento} &lt; 2000">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-17T16:40:49.022147" level="TRACE">Arguments: [ 'Ano de nascimento: 1987' ]</msg>
+<msg time="2024-06-17T16:40:49.022147" level="INFO">Ano de nascimento: 1987</msg>
+<msg time="2024-06-17T16:40:49.022147" level="TRACE">Return: None</msg>
+<arg>Ano de nascimento: ${ano_nascimento}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-17T16:40:49.021145" elapsed="0.001002"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-17T16:40:49.022147" level="TRACE">Arguments: [ 'Usuário nasceu no século passado.' ]</msg>
+<msg time="2024-06-17T16:40:49.022147" level="INFO">Usuário nasceu no século passado.</msg>
+<msg time="2024-06-17T16:40:49.022147" level="TRACE">Return: None</msg>
+<arg>Usuário nasceu no século passado.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-17T16:40:49.022147" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-06-17T16:40:49.021145" elapsed="0.001002"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log" owner="BuiltIn">
+<arg>Ano de nascimento: ${ano_nascimento}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-06-17T16:40:49.022147" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>Usuário nasceu neste século.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2024-06-17T16:40:49.022147" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2024-06-17T16:40:49.022147" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2024-06-17T16:40:49.021145" elapsed="0.001002"/>
+</if>
+<return>
+<value>${ano_nascimento}</value>
+<status status="PASS" start="2024-06-17T16:40:49.022147" elapsed="0.000000"/>
+</return>
+<msg time="2024-06-17T16:40:49.022147" level="TRACE">Return: 1987</msg>
+<arg>37</arg>
+<status status="PASS" start="2024-06-17T16:40:49.018147" elapsed="0.004000"/>
+</kw>
+<tag>ExcluirCenario</tag>
+<status status="PASS" start="2024-06-17T16:40:49.017146" elapsed="0.006003"/>
+</test>
+<test id="s1-t3" name="Exercicio For in Range" line="44">
 <kw name="Contar numeros pares">
+<msg time="2024-06-17T16:40:49.026152" level="TRACE">Arguments: [  ]</msg>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.470384" level="INFO">${numerosPares} = 0</msg>
+<msg time="2024-06-17T16:40:49.026152" level="TRACE">Arguments: [ '0' ]</msg>
+<msg time="2024-06-17T16:40:49.026152" level="TRACE">Return: '0'</msg>
+<msg time="2024-06-17T16:40:49.026152" level="INFO">${numerosPares} = 0</msg>
 <var>${numerosPares}</var>
 <arg>0</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.470384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.026152" elapsed="0.000000"/>
 </kw>
 <for flavor="IN RANGE">
 <iter>
 <if>
 <branch type="IF" condition="${indice} % 2 == 0">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.471384" level="INFO">${numerosPares} = 1</msg>
+<msg time="2024-06-17T16:40:49.027184" level="TRACE">Arguments: [ '0 + 1' ]</msg>
+<msg time="2024-06-17T16:40:49.028149" level="TRACE">Return: 1</msg>
+<msg time="2024-06-17T16:40:49.028149" level="INFO">${numerosPares} = 1</msg>
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.471384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.027184" elapsed="0.000965"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.471384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.027184" elapsed="0.000965"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.471384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.027184" elapsed="0.000965"/>
 </if>
 <var name="${indice}">0</var>
-<status status="PASS" start="2024-06-16T12:11:20.471384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.027184" elapsed="0.000965"/>
 </iter>
 <iter>
 <if>
@@ -83,31 +171,33 @@
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2024-06-16T12:11:20.472381" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.028149" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2024-06-16T12:11:20.472381" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.028149" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.472381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.028149" elapsed="0.000000"/>
 </if>
 <var name="${indice}">1</var>
-<status status="PASS" start="2024-06-16T12:11:20.472381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.028149" elapsed="0.000000"/>
 </iter>
 <iter>
 <if>
 <branch type="IF" condition="${indice} % 2 == 0">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.473380" level="INFO">${numerosPares} = 2</msg>
+<msg time="2024-06-17T16:40:49.030318" level="TRACE">Arguments: [ '1 + 1' ]</msg>
+<msg time="2024-06-17T16:40:49.030318" level="TRACE">Return: 2</msg>
+<msg time="2024-06-17T16:40:49.030318" level="INFO">${numerosPares} = 2</msg>
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.472381" elapsed="0.000999"/>
+<status status="PASS" start="2024-06-17T16:40:49.030318" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.472381" elapsed="0.000999"/>
+<status status="PASS" start="2024-06-17T16:40:49.029217" elapsed="0.002047"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.472381" elapsed="0.000999"/>
+<status status="PASS" start="2024-06-17T16:40:49.029217" elapsed="0.002047"/>
 </if>
 <var name="${indice}">2</var>
-<status status="PASS" start="2024-06-16T12:11:20.472381" elapsed="0.000999"/>
+<status status="PASS" start="2024-06-17T16:40:49.029217" elapsed="0.002047"/>
 </iter>
 <iter>
 <if>
@@ -116,31 +206,33 @@
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2024-06-16T12:11:20.473380" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.031264" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2024-06-16T12:11:20.473380" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.031264" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.473380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.031264" elapsed="0.000000"/>
 </if>
 <var name="${indice}">3</var>
-<status status="PASS" start="2024-06-16T12:11:20.473380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.031264" elapsed="0.000000"/>
 </iter>
 <iter>
 <if>
 <branch type="IF" condition="${indice} % 2 == 0">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.474380" level="INFO">${numerosPares} = 3</msg>
+<msg time="2024-06-17T16:40:49.032223" level="TRACE">Arguments: [ '2 + 1' ]</msg>
+<msg time="2024-06-17T16:40:49.032223" level="TRACE">Return: 3</msg>
+<msg time="2024-06-17T16:40:49.032223" level="INFO">${numerosPares} = 3</msg>
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.474380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.031264" elapsed="0.000959"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.473380" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.031264" elapsed="0.000959"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.473380" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.031264" elapsed="0.000959"/>
 </if>
 <var name="${indice}">4</var>
-<status status="PASS" start="2024-06-16T12:11:20.473380" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.031264" elapsed="0.000959"/>
 </iter>
 <iter>
 <if>
@@ -149,31 +241,33 @@
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2024-06-16T12:11:20.474380" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.032223" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2024-06-16T12:11:20.474380" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.032223" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.474380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.032223" elapsed="0.000000"/>
 </if>
 <var name="${indice}">5</var>
-<status status="PASS" start="2024-06-16T12:11:20.474380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.032223" elapsed="0.000000"/>
 </iter>
 <iter>
 <if>
 <branch type="IF" condition="${indice} % 2 == 0">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.475380" level="INFO">${numerosPares} = 4</msg>
+<msg time="2024-06-17T16:40:49.033264" level="TRACE">Arguments: [ '3 + 1' ]</msg>
+<msg time="2024-06-17T16:40:49.033264" level="TRACE">Return: 4</msg>
+<msg time="2024-06-17T16:40:49.033264" level="INFO">${numerosPares} = 4</msg>
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.475380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.475380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.475380" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </if>
 <var name="${indice}">6</var>
-<status status="PASS" start="2024-06-16T12:11:20.474380" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </iter>
 <iter>
 <if>
@@ -182,31 +276,33 @@
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2024-06-16T12:11:20.475380" elapsed="0.001001"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2024-06-16T12:11:20.475380" elapsed="0.001001"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.475380" elapsed="0.001001"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </if>
 <var name="${indice}">7</var>
-<status status="PASS" start="2024-06-16T12:11:20.475380" elapsed="0.001001"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000000"/>
 </iter>
 <iter>
 <if>
 <branch type="IF" condition="${indice} % 2 == 0">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.476381" level="INFO">${numerosPares} = 5</msg>
+<msg time="2024-06-17T16:40:49.034226" level="TRACE">Arguments: [ '4 + 1' ]</msg>
+<msg time="2024-06-17T16:40:49.034226" level="TRACE">Return: 5</msg>
+<msg time="2024-06-17T16:40:49.034226" level="INFO">${numerosPares} = 5</msg>
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.476381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.034226" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.476381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000962"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.476381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000962"/>
 </if>
 <var name="${indice}">8</var>
-<status status="PASS" start="2024-06-16T12:11:20.476381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.033264" elapsed="0.000962"/>
 </iter>
 <iter>
 <if>
@@ -215,186 +311,226 @@
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2024-06-16T12:11:20.477381" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.034226" elapsed="0.000000"/>
 </kw>
-<status status="NOT RUN" start="2024-06-16T12:11:20.477381" elapsed="0.000000"/>
+<status status="NOT RUN" start="2024-06-17T16:40:49.034226" elapsed="0.000000"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.477381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.034226" elapsed="0.000000"/>
 </if>
 <var name="${indice}">9</var>
-<status status="PASS" start="2024-06-16T12:11:20.476381" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.034226" elapsed="0.000000"/>
 </iter>
 <iter>
 <if>
 <branch type="IF" condition="${indice} % 2 == 0">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.477381" level="INFO">${numerosPares} = 6</msg>
+<msg time="2024-06-17T16:40:49.036250" level="TRACE">Arguments: [ '5 + 1' ]</msg>
+<msg time="2024-06-17T16:40:49.037230" level="TRACE">Return: 6</msg>
+<msg time="2024-06-17T16:40:49.037230" level="INFO">${numerosPares} = 6</msg>
 <var>${numerosPares}</var>
 <arg>${numerosPares} + 1</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.477381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.036250" elapsed="0.000980"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.477381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.034226" elapsed="0.003004"/>
 </branch>
-<status status="PASS" start="2024-06-16T12:11:20.477381" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.034226" elapsed="0.003004"/>
 </if>
 <var name="${indice}">10</var>
-<status status="PASS" start="2024-06-16T12:11:20.477381" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.034226" elapsed="0.003004"/>
 </iter>
 <var>${indice}</var>
 <value>11</value>
-<status status="PASS" start="2024-06-16T12:11:20.471384" elapsed="0.006997"/>
+<status status="PASS" start="2024-06-17T16:40:49.026152" elapsed="0.011078"/>
 </for>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.478381" level="INFO">O número de pares entre 0 e 10 é: 6</msg>
+<msg time="2024-06-17T16:40:49.037230" level="TRACE">Arguments: [ 'O número de pares entre 0 e 10 é: 6' ]</msg>
+<msg time="2024-06-17T16:40:49.037230" level="INFO">O número de pares entre 0 e 10 é: 6</msg>
+<msg time="2024-06-17T16:40:49.037230" level="TRACE">Return: None</msg>
 <arg>O número de pares entre 0 e 10 é: ${numerosPares}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.478381" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.037230" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.470384" elapsed="0.007997"/>
+<msg time="2024-06-17T16:40:49.037230" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-06-17T16:40:49.026152" elapsed="0.011078"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.469387" elapsed="0.008994"/>
+<status status="PASS" start="2024-06-17T16:40:49.025181" elapsed="0.013046"/>
 </test>
-<test id="s1-t3" name="Exercicio For simples + lista" line="61">
+<test id="s1-t4" name="Exercicio For simples + lista" line="61">
 <kw name="Exibir as frutas da lista">
+<msg time="2024-06-17T16:40:49.040225" level="TRACE">Arguments: [  ]</msg>
 <for flavor="IN">
 <iter>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.481391" level="INFO">Morango</msg>
+<msg time="2024-06-17T16:40:49.040225" level="TRACE">Arguments: [ 'Morango' ]</msg>
+<msg time="2024-06-17T16:40:49.040225" level="INFO">Morango</msg>
+<msg time="2024-06-17T16:40:49.040225" level="TRACE">Return: None</msg>
 <arg>${listaFrutas}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.481391" elapsed="0.000995"/>
+<status status="PASS" start="2024-06-17T16:40:49.040225" elapsed="0.000000"/>
 </kw>
 <var name="${listaFrutas}">Morango</var>
-<status status="PASS" start="2024-06-16T12:11:20.481391" elapsed="0.000995"/>
+<status status="PASS" start="2024-06-17T16:40:49.040225" elapsed="0.000000"/>
 </iter>
 <iter>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.482386" level="INFO">Manga</msg>
+<msg time="2024-06-17T16:40:49.041226" level="TRACE">Arguments: [ 'Manga' ]</msg>
+<msg time="2024-06-17T16:40:49.041226" level="INFO">Manga</msg>
+<msg time="2024-06-17T16:40:49.041226" level="TRACE">Return: None</msg>
 <arg>${listaFrutas}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.482386" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.041226" elapsed="0.000000"/>
 </kw>
 <var name="${listaFrutas}">Manga</var>
-<status status="PASS" start="2024-06-16T12:11:20.482386" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.040225" elapsed="0.001001"/>
 </iter>
 <iter>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.483384" level="INFO">Abacaxi</msg>
+<msg time="2024-06-17T16:40:49.041226" level="TRACE">Arguments: [ 'Abacaxi' ]</msg>
+<msg time="2024-06-17T16:40:49.041226" level="INFO">Abacaxi</msg>
+<msg time="2024-06-17T16:40:49.041226" level="TRACE">Return: None</msg>
 <arg>${listaFrutas}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.482386" elapsed="0.000998"/>
+<status status="PASS" start="2024-06-17T16:40:49.041226" elapsed="0.000000"/>
 </kw>
 <var name="${listaFrutas}">Abacaxi</var>
-<status status="PASS" start="2024-06-16T12:11:20.482386" elapsed="0.000998"/>
+<status status="PASS" start="2024-06-17T16:40:49.041226" elapsed="0.000000"/>
 </iter>
 <iter>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.484384" level="INFO">Uva</msg>
+<msg time="2024-06-17T16:40:49.042228" level="TRACE">Arguments: [ 'Uva' ]</msg>
+<msg time="2024-06-17T16:40:49.042228" level="INFO">Uva</msg>
+<msg time="2024-06-17T16:40:49.042228" level="TRACE">Return: None</msg>
 <arg>${listaFrutas}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.483384" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.042228" elapsed="0.000000"/>
 </kw>
 <var name="${listaFrutas}">Uva</var>
-<status status="PASS" start="2024-06-16T12:11:20.483384" elapsed="0.001000"/>
+<status status="PASS" start="2024-06-17T16:40:49.041226" elapsed="0.001002"/>
 </iter>
 <iter>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.484384" level="INFO">Goiaba</msg>
+<msg time="2024-06-17T16:40:49.043227" level="TRACE">Arguments: [ 'Goiaba' ]</msg>
+<msg time="2024-06-17T16:40:49.043227" level="INFO">Goiaba</msg>
+<msg time="2024-06-17T16:40:49.043227" level="TRACE">Return: None</msg>
 <arg>${listaFrutas}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.484384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.043227" elapsed="0.000000"/>
 </kw>
 <var name="${listaFrutas}">Goiaba</var>
-<status status="PASS" start="2024-06-16T12:11:20.484384" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.042228" elapsed="0.000999"/>
 </iter>
 <iter>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.484384" level="INFO">Maçã</msg>
+<msg time="2024-06-17T16:40:49.043227" level="TRACE">Arguments: [ 'Maçã' ]</msg>
+<msg time="2024-06-17T16:40:49.043227" level="INFO">Maçã</msg>
+<msg time="2024-06-17T16:40:49.043227" level="TRACE">Return: None</msg>
 <arg>${listaFrutas}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.484384" elapsed="0.001052"/>
+<status status="PASS" start="2024-06-17T16:40:49.043227" elapsed="0.000000"/>
 </kw>
 <var name="${listaFrutas}">Maçã</var>
-<status status="PASS" start="2024-06-16T12:11:20.484384" elapsed="0.001052"/>
+<status status="PASS" start="2024-06-17T16:40:49.043227" elapsed="0.001530"/>
 </iter>
 <var>${listaFrutas}</var>
 <value>@{FRUTAS}</value>
-<status status="PASS" start="2024-06-16T12:11:20.481391" elapsed="0.004045"/>
+<status status="PASS" start="2024-06-17T16:40:49.040225" elapsed="0.004532"/>
 </for>
-<status status="PASS" start="2024-06-16T12:11:20.480381" elapsed="0.005055"/>
+<msg time="2024-06-17T16:40:49.044757" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-06-17T16:40:49.040225" elapsed="0.004532"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.480381" elapsed="0.006055"/>
+<status status="PASS" start="2024-06-17T16:40:49.039226" elapsed="0.006542"/>
 </test>
-<test id="s1-t4" name="Teste - Alterar senha com sucesso" line="71">
+<test id="s1-t5" name="Teste - Alterar senha com sucesso" line="71">
 <kw name="Criar credenciais de acesso" type="SETUP">
+<msg time="2024-06-17T16:40:49.052394" level="TRACE">Arguments: [  ]</msg>
 <kw name="Create Dictionary" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.489386" level="INFO">&amp;{CREDENCIAIS} = { usuario=Marillia | senha=1234Teste }</msg>
+<msg time="2024-06-17T16:40:49.052394" level="TRACE">Arguments: [ 'usuario=Marillia' | 'senha=1234Teste' ]</msg>
+<msg time="2024-06-17T16:40:49.053368" level="TRACE">Return: {'usuario': 'Marillia', 'senha': '1234Teste'}</msg>
+<msg time="2024-06-17T16:40:49.053368" level="INFO">&amp;{CREDENCIAIS} = { usuario=Marillia | senha=1234Teste }</msg>
 <var>&amp;{CREDENCIAIS}</var>
 <arg>usuario=Marillia</arg>
 <arg>senha=1234Teste</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.489386" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.052394" elapsed="0.000974"/>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.490388" level="INFO">${CREDENCIAIS} = {'usuario': 'Marillia', 'senha': '1234Teste'}</msg>
+<msg time="2024-06-17T16:40:49.053368" level="TRACE">Arguments: [ '${CREDENCIAIS}' ]</msg>
+<msg time="2024-06-17T16:40:49.054354" level="INFO">${CREDENCIAIS} = {'usuario': 'Marillia', 'senha': '1234Teste'}</msg>
+<msg time="2024-06-17T16:40:49.054354" level="TRACE">Return: None</msg>
 <arg>${CREDENCIAIS}</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.489386" elapsed="0.001002"/>
+<status status="PASS" start="2024-06-17T16:40:49.053368" elapsed="0.000986"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.490388" level="INFO">Credenciais criadas: {'usuario': 'Marillia', 'senha': '1234Teste'}</msg>
+<msg time="2024-06-17T16:40:49.054354" level="TRACE">Arguments: [ "Credenciais criadas: {'usuario': 'Marillia', 'senha': '1234Teste'}" ]</msg>
+<msg time="2024-06-17T16:40:49.054354" level="INFO">Credenciais criadas: {'usuario': 'Marillia', 'senha': '1234Teste'}</msg>
+<msg time="2024-06-17T16:40:49.054354" level="TRACE">Return: None</msg>
 <arg>Credenciais criadas: ${CREDENCIAIS}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.490388" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.054354" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.488382" elapsed="0.002006"/>
+<msg time="2024-06-17T16:40:49.054354" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-06-17T16:40:49.051351" elapsed="0.003003"/>
 </kw>
 <kw name="Alterar senha">
+<msg time="2024-06-17T16:40:49.055355" level="TRACE">Arguments: [  ]</msg>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.491389" level="INFO">${CREDENCIAIS.senha} = senhaAlterada123</msg>
+<msg time="2024-06-17T16:40:49.056373" level="TRACE">Arguments: [ '${CREDENCIAIS.senha}' | 'senhaAlterada123' ]</msg>
+<msg time="2024-06-17T16:40:49.057354" level="INFO">${CREDENCIAIS.senha} = senhaAlterada123</msg>
+<msg time="2024-06-17T16:40:49.057354" level="TRACE">Return: None</msg>
 <arg>${CREDENCIAIS.senha}</arg>
 <arg>senhaAlterada123</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.491389" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.056373" elapsed="0.000981"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.492387" level="INFO">Senha alterada: senhaAlterada123</msg>
+<msg time="2024-06-17T16:40:49.057354" level="TRACE">Arguments: [ 'Senha alterada: senhaAlterada123' ]</msg>
+<msg time="2024-06-17T16:40:49.057354" level="INFO">Senha alterada: senhaAlterada123</msg>
+<msg time="2024-06-17T16:40:49.057354" level="TRACE">Return: None</msg>
 <arg>Senha alterada: ${CREDENCIAIS.senha}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.492387" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.057354" elapsed="0.000000"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.491389" elapsed="0.000998"/>
+<msg time="2024-06-17T16:40:49.057354" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-06-17T16:40:49.055355" elapsed="0.001999"/>
 </kw>
 <kw name="Retornar o valor inicial" type="TEARDOWN">
+<msg time="2024-06-17T16:40:49.059366" level="TRACE">Arguments: [  ]</msg>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.493389" level="INFO">${CREDENCIAIS.senha} = 1234Teste</msg>
+<msg time="2024-06-17T16:40:49.059366" level="TRACE">Arguments: [ '${CREDENCIAIS.senha}' | '1234Teste' ]</msg>
+<msg time="2024-06-17T16:40:49.059366" level="INFO">${CREDENCIAIS.senha} = 1234Teste</msg>
+<msg time="2024-06-17T16:40:49.059366" level="TRACE">Return: None</msg>
 <arg>${CREDENCIAIS.senha}</arg>
 <arg>1234Teste</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.493389" elapsed="0.000000"/>
+<status status="PASS" start="2024-06-17T16:40:49.059366" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-06-16T12:11:20.494388" level="INFO">Senha inicial: 1234Teste</msg>
+<msg time="2024-06-17T16:40:49.060367" level="TRACE">Arguments: [ 'Senha inicial: 1234Teste' ]</msg>
+<msg time="2024-06-17T16:40:49.060367" level="INFO">Senha inicial: 1234Teste</msg>
+<msg time="2024-06-17T16:40:49.060367" level="TRACE">Return: None</msg>
 <arg>Senha inicial: ${CREDENCIAIS.senha}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-06-16T12:11:20.493389" elapsed="0.000999"/>
+<status status="PASS" start="2024-06-17T16:40:49.059366" elapsed="0.001001"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.493389" elapsed="0.000999"/>
+<msg time="2024-06-17T16:40:49.060367" level="TRACE">Return: None</msg>
+<status status="PASS" start="2024-06-17T16:40:49.058394" elapsed="0.001973"/>
 </kw>
-<status status="PASS" start="2024-06-16T12:11:20.488382" elapsed="0.006006"/>
+<status status="PASS" start="2024-06-17T16:40:49.049362" elapsed="0.011005"/>
 </test>
 <doc>Desafio PHA - Semana 2</doc>
-<status status="PASS" start="2024-06-16T12:11:20.420857" elapsed="0.075530"/>
+<status status="PASS" start="2024-06-17T16:40:48.970086" elapsed="0.094281"/>
 </suite>
 <statistics>
 <total>
-<stat pass="4" fail="0" skip="0">All Tests</stat>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0" skip="0">ExcluirCenario</stat>
 </tag>
 <suite>
-<stat pass="4" fail="0" skip="0" id="s1" name="Desafio">Desafio</stat>
+<stat pass="5" fail="0" skip="0" id="s1" name="Desafio">Desafio</stat>
 </suite>
 </statistics>
 <errors>
